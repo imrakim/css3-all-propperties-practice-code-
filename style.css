@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: chartreuse;
+    color: black;
+    display:block;
+    padding: 20px;
+}
+.header ul li{
+    display: inline;
+    text-decoration: none;
+}
+.header ul li a{
+text-decoration: none;
+padding: 20px;
+font-size: 20px;
+}
+.header ul .navbarname{
+    float: right;
+    padding-top: 13px;
+}
+.header ul li .logo{
+    font-size: 40px;
+}
+.div1{
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    padding: 10px;
+    border: 10px solid black;
+}
+.div2{
+margin: auto;
+height: 300px;
+width: 300px;
+font-size: 2em;
+background-color: rgb(42, 5, 252);
+padding: 10px;
+border: 10px solid black;
+}
+.div3{
+    border: 5px solid black;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px 1px greenyellow; 
+    
+}
