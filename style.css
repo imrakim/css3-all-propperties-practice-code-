@@ -7,10 +7,14 @@
     color: black;
     display:block;
     padding: 20px;
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid rgb(163, 149, 149);
 }
 .header ul li{
     display: inline;
     text-decoration: none;
+
 }
 .header ul li a{
 text-decoration: none;
@@ -53,11 +57,14 @@ border: 10px solid black;
     height: 133px;
     border: 1px solid black;
     margin: auto;
+     background-color: cadetblue;
 }
 .position3{
-    position: fixed;
-    bottom: 0px;
+    position: relative;
+    bottom: 15px;
     align-items: center;
-    background-color: black;
+    right:40px ;
+    z-index: -1;
+
 }
 
